@@ -1,0 +1,6 @@
+export enum AsOfDateModifierEnum {
+  INTERIM_PREVIOUS_DAY = 1,
+  FINAL_PREVIOUS_DAY = 2,
+  INTERIM_SAME_DAY = 3,
+  FINAL_SAME_DAY = 4,
+}
