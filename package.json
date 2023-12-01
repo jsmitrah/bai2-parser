@@ -17,6 +17,7 @@
   "author": "mitrahsoft",
   "license": "MIT",
   "dependencies": {
+    "json-2-csv": "^5.0.1",
     "prop-types": "^15.8.1"
   },
   "devDependencies": {

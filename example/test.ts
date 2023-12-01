@@ -5,13 +5,13 @@ const fileString = fs.readFileSync(`../input/sample.bai`).toString()
 
 // You can get the parsed answer from file using below prop.
 
-const parsefromFile = BAI2.fromFile(`../input/sample.bai`)
+const parsefromFile = BAI2.fromFile(`../input/sample.bai`, { output: 'JSON' })
 
 console.log('parsefromFile', parsefromFile)
 
 // You can get the parsed answer from file string using below prop.
 
-const parsefromString = BAI2.fromString(fileString)
+const parsefromString = BAI2.fromString(fileString, { output: 'CSV' })
 
 console.log('parsefromString', parsefromString)
 
