@@ -23,7 +23,7 @@ function getParsedValue(fileString: string, options: BAI2Options) {
     const csv = converter.json2csv(data);
     return csv
   } else {
-    return JSON.stringify(data)
+    return data
   }
 }
 
@@ -33,7 +33,7 @@ export namespace BAI2 {
       const res = getParsedValue(fileString, options)
       return res
     } catch (error) {
-      return (error as Error).message
+      throw (error as Error).message
     }
   }
 }
@@ -45,7 +45,7 @@ export namespace BAI2 {
       const res = getParsedValue(fileString, options)
       return res
     } catch (error) {
-      return (error as Error).message
+      throw (error as Error).message
     }
   }
 }
