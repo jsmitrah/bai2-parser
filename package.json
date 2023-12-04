@@ -1,11 +1,10 @@
 {
   "name": "bai2-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Parse the bai2 statement file as CSV or JSON file",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "start": "nodemon --exec node --loader ts-node/esm ./dist/index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,13 +19,12 @@
   "author": "mitrahsoft",
   "license": "MIT",
   "dependencies": {
-    "json-2-csv": "^5.0.1",
-    "prop-types": "^15.8.1",
-    "tsup": "^8.0.1"
+    "json-2-csv": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
+    "tsup": "^8.0.1",
     "typescript": "^5.3.2"
   },
   "repository": {
