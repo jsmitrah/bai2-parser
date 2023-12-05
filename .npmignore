@@ -1,0 +1,8 @@
+enums/
+example/
+helpers/
+models/
+parser/
+reader/
+
+index.ts

@@ -49,5 +49,3 @@ export namespace BAI2 {
     }
   }
 }
-
-
