@@ -4,5 +4,7 @@ helpers/
 models/
 parser/
 reader/
+input/
+output/
 
 index.ts
