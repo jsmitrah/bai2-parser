@@ -1,6 +1,6 @@
 {
   "name": "bai2-parser",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Parse the bai2 statement file as CSV or JSON file",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
